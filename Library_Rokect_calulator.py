@@ -1,6 +1,7 @@
 def vertical_position(v_vertical, time): #defines the fuction and variables
     message=int(v_vertical * time - 0.5 * 9.8 * (time ** 2)) #the function
     return message #out put of the fuction
+
 def burnout_velocity(acceleration , burn_time):
     mess4 = float(acceleration * burn_time)
     return mess4
@@ -19,8 +20,6 @@ def time_fall(apogee, g):
 def total_flight_time(burn_time, time_to_apogee1, time_fall):
     message3 = int(burn_time) + int(time_to_apogee1) + int(time_fall)
     return message3
-
-
 
 #time_to_apogee = v_vertical / g
 

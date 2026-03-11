@@ -134,6 +134,7 @@ while time < total_flight_time :
     x_p.append(horizontal_position)
     positions.append([horizontal_position, y_position])
     time += .5
+    
 
 print(f"Launch weight: {launch_weight:.2f} kg")
 print(f"Cross-sectional area: {area:.2f} m^2")
